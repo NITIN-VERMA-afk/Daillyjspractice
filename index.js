@@ -1,4 +1,3 @@
-
 // error handling
 // try {
 //   console.log("hello nitin");
@@ -15,7 +14,7 @@
 
 // const combine=[...arr1,...arr2];
 // console.log(combine);
-// spread with object 
+// spread with object
 // let obj1={
 //   a:1,
 //   b:45
@@ -29,7 +28,6 @@
 // console.log(combineobj);
 // rest operator
 
-
 // const sum = (...numbers) => {
 //   let total = 0;
 //   for (const num of numbers) {
@@ -39,4 +37,69 @@
 // }
 
 // console.log(sum(1, 2, 3, 4, 5, 6, 7));
+// callbacks example
+
+// function changingBrushColor(newColor, callbacks) {
+//   console.log("changing bush color");
+//   setTimeout(function () {
+//     console.log("brush color changed to" + newColor);
+//     callbacks();
+//   }, 2000);
+// }
+// function continueDrawing() {
+//   console.log("you can continue drawing now");
+// }
+
+// console.log(" clicked color change button");
+// changeBrushColor("blue", continueDrawing);
+// console.log("doing something else while waiting");
+
+// let admin,name;
+// name="john"
+// admin=name;
+// alert(admin)
+
+
+// reverse a string 
+
+
+
+
+
+// let revString=()=>{
+   
+//     let name =document.getElementById('str');
+//     let inputName=name.value;
+
+//     let newString= inputName.split('').reverse().join('')
+   
+//    let c= document.getElementById("rev")
+//    c.textContent= "reversed string is: "+newString;
+   
+   
+  
+  
+// }
+// for fectorial
+
+const factorial=()=>{
+    let number=document.getElementById('num');
+    let numb=number.value;
+
+    let newNumber= for (i=0;i<numb.length;i++){
+
+    }
+
+    let c=document.getElementById("output")
+    c.textContent="factorials of your no is "+newNumber;
+}
+
+
+ 
+    
+
+
+
+
+
 
