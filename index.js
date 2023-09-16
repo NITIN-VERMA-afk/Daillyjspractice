@@ -82,18 +82,57 @@
 // }
 // for fectorial
 
-const factorial=()=>{
-    let number=document.getElementById('num');
-    let numb=number.value;
+// const factorial=()=>{
+//     let number=document.getElementById('num');
+//     let numb=number.value;
 
-    let newNumber= for (i=0;i<numb.length;i++){
+//     let newNumber= for (i=0;i<numb.length;i++){
 
-    }
+//     }
 
-    let c=document.getElementById("output")
-    c.textContent="factorials of your no is "+newNumber;
-}
+//     let c=document.getElementById("output")
+//     c.textContent="factorials of your no is "+newNumber;
+// }
 
+// find palidrom
+
+// const findPalidrom=()=>{
+    
+//      let text=document.getElementById("txt")
+//      let  inputText= text.value;
+
+//      let newInput=inputText.split("").reverse().join("")
+//      let rev=document.getElementById("revStr");
+//      rev.textContent=newInput+ "is reverse"
+
+//      let palidrom=document.getElementById("palidrom")
+            
+       
+//          if(inputText===newInput){
+//             palidrom.innerHTML=`${inputText} is Palindrom`
+         
+//          }else{
+//            palidrom.innerHTML=`${inputText}is not palidrom`
+//          }
+
+// }
+
+
+// fizz buzz chalenge 
+
+// const findNum=()=>{
+   
+//     let Number= parseInt(document.getElementById("num").value) 
+//     let answer=document.getElementById("Ans")
+//     if(Number%2===0){
+//         answer.innerHTML=`${Number}is fizz`
+        
+//     }else{
+//         answer.innerHTML=`${Number}is Buzz`
+      
+
+//     }
+// }
 
  
     
